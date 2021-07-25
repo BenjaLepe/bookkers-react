@@ -1,6 +1,6 @@
 # Installation Document
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project needs the backend to be functional, please install this from this repository: [https://github.com/BenjaLepe/bookkers-backend](https://github.com/BenjaLepe/bookkers-backend)
 
 ## Available Scripts
 
