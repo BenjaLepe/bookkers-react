@@ -1,0 +1,57 @@
+.books {
+  text-align: center;
+  padding-bottom: 1em;
+  color: white;
+  background: darkcyan;
+}
+
+h2 {
+  text-align: center;
+}
+  
+.title {
+  margin: 1em;  
+}
+
+.textarea {
+  width: 100%;
+}
+  
+.book-list{
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  text-align: center;
+}
+  
+.single-book {
+  background-color: rgb(8, 42, 82);
+  width: 30%;
+  align-items: center;
+  text-align: center;
+  border-radius: 5%;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 5%;
+  margin-top: 3%;     
+}
+.box {
+  width: 50%;
+  margin: 15px auto 15px auto;
+  border: 1px solid lightgray;
+  padding: 25px;
+  border-radius: 7px;
+  box-shadow: 4px 4px 8px lightgray;
+  display: flex;
+  flex-direction: row;
+}
+
+.book-image-detail {
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.book-image-container {
+  width: 40%;
+  margin-right: 20px;
+}

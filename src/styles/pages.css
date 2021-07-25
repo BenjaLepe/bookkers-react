@@ -1,0 +1,24 @@
+.page-set {
+  width: 20%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-evenly;
+}
+
+h2 {
+  text-align: center;
+}
+
+.page-button {
+  display: flex;
+  margin: 3px;
+}
+
+.page-button:disabled,
+.page-button[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}

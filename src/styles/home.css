@@ -1,0 +1,32 @@
+h2 {
+    text-align: center;
+}
+
+.head-container {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    object-fit: cover;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.logo-container {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 10px 0 10px;
+    text-align: center;
+}
+
+.welcome-container {
+    text-align: center;
+    margin-left: 20px;
+    width: 50%;
+}

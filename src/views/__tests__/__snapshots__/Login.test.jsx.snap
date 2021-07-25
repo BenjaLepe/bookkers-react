@@ -1,0 +1,239 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login When there is a current session renders the home page with books 1`] = `
+Array [
+  <div
+    className="nav-bg"
+  >
+    <div
+      className="nav-bar container"
+    >
+      <div
+        className="nav-group-logo"
+      >
+        <a
+          aria-current="page"
+          className="nav-link nav-title active"
+          href="/"
+          onClick={[Function]}
+          style={Object {}}
+        >
+          Bookkers
+        </a>
+      </div>
+      <div
+        className="nav-group"
+      >
+        <a
+          aria-current={null}
+          className="nav-link"
+          href="/session-profile"
+          onClick={[Function]}
+        >
+          Profile
+        </a>
+        <a
+          aria-current={null}
+          className="nav-link"
+          href="/books/new"
+          onClick={[Function]}
+        >
+          Add book
+        </a>
+        <button
+          className="nav-button"
+          onClick={[Function]}
+          type="button"
+        >
+          Log out
+        </button>
+      </div>
+    </div>
+  </div>,
+  <div>
+    <div
+      className="head-container"
+    >
+      <div
+        className="logo-container"
+      >
+        <img
+          alt="LOGO"
+          className="logo"
+          src="logo.png"
+        />
+      </div>
+      <div
+        className="welcome-container"
+      >
+        <h2>
+          Welcome 
+          testFirstName
+           to Bookers
+        </h2>
+        <p>
+          Bookkers es una red social que permite a sus usuarios publicar, calificar, recomendar y ver las recomendaciones que otros usuarios han hecho respecto a los libros ingresados a la aplicación.
+        </p>
+      </div>
+    </div>
+    <div
+      className="container"
+    >
+      <h2>
+        Books
+      </h2>
+      <div
+        className="books-collection"
+      />
+      <div
+        className="page-set"
+      >
+        <button
+          className="page-button"
+          disabled={true}
+          onClick={[Function]}
+          type="button"
+        >
+          Back
+        </button>
+        <p
+          className="pages"
+        >
+          1 : 1
+        </p>
+        <button
+          className="page-button"
+          disabled={true}
+          onClick={[Function]}
+          type="button"
+        >
+          Next
+        </button>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Login When there is no current session renders log in form. 1`] = `
+Array [
+  <div
+    className="nav-bg"
+  >
+    <div
+      className="nav-bar container"
+    >
+      <div
+        className="nav-group-logo"
+      >
+        <a
+          aria-current="page"
+          className="nav-link nav-title active"
+          href="/"
+          onClick={[Function]}
+          style={Object {}}
+        >
+          Bookkers
+        </a>
+      </div>
+      <div
+        className="nav-group"
+      >
+        <a
+          aria-current="page"
+          className="nav-link active"
+          href="/login"
+          onClick={[Function]}
+          style={Object {}}
+        >
+          Log In
+        </a>
+        <a
+          aria-current={null}
+          className="nav-link"
+          href="/sign-up"
+          onClick={[Function]}
+        >
+          Sign Up 
+        </a>
+      </div>
+    </div>
+  </div>,
+  <div>
+    <form
+      action="#"
+      className="form-box"
+      onReset={[Function]}
+      onSubmit={[Function]}
+    >
+      <h2>
+        Login with your account
+      </h2>
+      <div
+        className="form-group"
+      >
+        <div
+          className="label-container"
+        >
+          <label
+            htmlFor="email"
+          >
+            Email:
+          </label>
+          <br />
+        </div>
+        <div
+          className="field-container"
+        >
+          <input
+            name="email"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onInput={[Function]}
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        className="form-group"
+      >
+        <div
+          className="label-container"
+        >
+          <label
+            htmlFor="password"
+          >
+            Password:
+          </label>
+          <br />
+        </div>
+        <div
+          className="field-container"
+        >
+          <input
+            name="password"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onInput={[Function]}
+            type="password"
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        className="submit-container"
+      >
+        <button
+          disabled={true}
+          type="submit"
+        >
+          Login
+        </button>
+      </div>
+    </form>
+    <p>
+      
+    </p>
+  </div>,
+]
+`;

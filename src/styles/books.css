@@ -1,0 +1,104 @@
+a { 
+    color: inherit; 
+    text-decoration: none;
+    font-weight: 500;
+} 
+
+h2 {
+    text-align: center;
+}
+
+.book-info-container {
+    text-align: left;
+}
+
+.books-collection {
+    margin: auto;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 30px;
+    align-items: start;
+}
+
+.book-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 1% 0 1%;
+    text-align: center;
+    height: 100%;
+}
+
+.book-container:hover {
+    -webkit-box-shadow: 3px 3px 12px 2px rgba(0,0,0,0.76); 
+    box-shadow: 3px 3px 12px 2px rgba(0,0,0,0.76);
+}
+
+.book-img {
+    object-fit: cover;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.book-info {
+    margin: auto;
+    margin-bottom: 10px;
+    width: 85%;
+    align-self: end;
+}
+
+.book-img-container {
+    margin-bottom: 0px;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+
+
+  
+button.delete {
+    margin: auto;
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+    background: #ca3737;
+    color: white;
+}
+ 
+button.edit {
+    margin: auto;
+    margin-top: 10px;
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+    background: #4871e4;
+    color: white;
+}
+
+button.cancelar {
+    margin: auto;
+    margin-right: 10px;
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+    background: #cacaca;
+    color: rgb(0, 0, 0);
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}

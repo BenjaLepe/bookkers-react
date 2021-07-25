@@ -1,0 +1,224 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User Profile When there is a normal user should redirect to not found page 1`] = `
+Array [
+  <div
+    className="nav-bg"
+  >
+    <div
+      className="nav-bar container"
+    >
+      <div
+        className="nav-group-logo"
+      >
+        <a
+          aria-current="page"
+          className="nav-link nav-title active"
+          href="/"
+          onClick={[Function]}
+          style={Object {}}
+        >
+          Bookkers
+        </a>
+      </div>
+      <div
+        className="nav-group"
+      >
+        <a
+          aria-current={null}
+          className="nav-link"
+          href="/session-profile"
+          onClick={[Function]}
+        >
+          Profile
+        </a>
+        <a
+          aria-current={null}
+          className="nav-link"
+          href="/books/new"
+          onClick={[Function]}
+        >
+          Add book
+        </a>
+        <button
+          className="nav-button"
+          onClick={[Function]}
+          type="button"
+        >
+          Log out
+        </button>
+      </div>
+    </div>
+  </div>,
+  <div>
+    <h2>
+      404 Error
+    </h2>
+    <p>
+      The page you are looking for does not exist
+    </p>
+  </div>,
+]
+`;
+
+exports[`User Profile When there is an admin user should renders the reports view 1`] = `
+Array [
+  <div
+    className="nav-bg"
+  >
+    <div
+      className="nav-bar container"
+    >
+      <div
+        className="nav-group-logo"
+      >
+        <a
+          aria-current="page"
+          className="nav-link nav-title active"
+          href="/"
+          onClick={[Function]}
+          style={Object {}}
+        >
+          Bookkers
+        </a>
+      </div>
+      <div
+        className="nav-group"
+      >
+        <a
+          aria-current={null}
+          className="nav-link"
+          href="/session-profile"
+          onClick={[Function]}
+        >
+          Profile
+        </a>
+        <a
+          aria-current={null}
+          className="nav-link"
+          href="/books/new"
+          onClick={[Function]}
+        >
+          Add book
+        </a>
+        <button
+          className="nav-button"
+          onClick={[Function]}
+          type="button"
+        >
+          Log out
+        </button>
+      </div>
+    </div>
+  </div>,
+  <div>
+    <div>
+      <h2>
+        Review
+      </h2>
+      <div
+        className="box"
+      >
+        <div>
+          <div>
+            <a
+              href="/users/7"
+              onClick={[Function]}
+            >
+              @testUsername
+                
+            </a>
+            <button
+              onClick={[Function]}
+              type="button"
+            >
+              Like
+            </button>
+            <button
+              onClick={[Function]}
+              type="button"
+            >
+              Delete
+            </button>
+            <a
+              href="/books/7/reviews/undefined/reports"
+              onClick={[Function]}
+            >
+              <button
+                type="button"
+              >
+                Ver reportes
+              </button>
+            </a>
+            <p>
+              Total likes: 
+              0
+            </p>
+          </div>
+          <h3>
+            testTitle
+          </h3>
+          <p>
+            testBody
+          </p>
+          <div>
+            <button
+              className="delete"
+              onClick={[Function]}
+            >
+              Report
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h2>
+      Reports on this review
+    </h2>
+    <div
+      className="box"
+    >
+      <div>
+        <div>
+          Autor del reporte:
+          <a
+            href="/users/8"
+            onClick={[Function]}
+          >
+            testUsername
+          </a>
+        </div>
+        <h3>
+          Explicación del reporte: 
+          testComment
+        </h3>
+      </div>
+    </div>
+    <div
+      className="page-set"
+    >
+      <button
+        className="page-button"
+        disabled={true}
+        onClick={[Function]}
+        type="button"
+      >
+        Back
+      </button>
+      <p
+        className="pages"
+      >
+        1 : 1
+      </p>
+      <button
+        className="page-button"
+        disabled={true}
+        onClick={[Function]}
+        type="button"
+      >
+        Next
+      </button>
+    </div>
+  </div>,
+]
+`;

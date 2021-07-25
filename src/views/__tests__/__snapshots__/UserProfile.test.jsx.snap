@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User Profile When there is an admin session renders an user page 1`] = `
+Array [
+  <div
+    className="nav-bg"
+  >
+    <div
+      className="nav-bar container"
+    >
+      <div
+        className="nav-group-logo"
+      >
+        <a
+          aria-current="page"
+          className="nav-link nav-title active"
+          href="/"
+          onClick={[Function]}
+          style={Object {}}
+        >
+          Bookkers
+        </a>
+      </div>
+      <div
+        className="nav-group"
+      >
+        <a
+          aria-current={null}
+          className="nav-link"
+          href="/session-profile"
+          onClick={[Function]}
+        >
+          Profile
+        </a>
+        <a
+          aria-current={null}
+          className="nav-link"
+          href="/books/new"
+          onClick={[Function]}
+        >
+          Add book
+        </a>
+        <button
+          className="nav-button"
+          onClick={[Function]}
+          type="button"
+        >
+          Log out
+        </button>
+      </div>
+    </div>
+  </div>,
+  <div>
+    <div
+      className="container"
+    >
+      <div
+        className="row info-header"
+      >
+        <div
+          className="profile-pic-container"
+        >
+          <img
+            alt="Profile picture"
+          />
+        </div>
+        <div
+          className="info-container"
+        >
+          <div>
+            <span
+              className="nombre-usuario"
+            >
+              responseFirstName2 responseLastName2 
+            </span>
+            <span
+              className="nic-usuario"
+            >
+              @responseUsername2
+               
+              
+            </span>
+          </div>
+          <div
+            className="description-container"
+          >
+            <p>
+              responseDescription2
+            </p>
+          </div>
+          <div>
+            <a
+              href="/edit-user/2"
+              onClick={[Function]}
+            >
+              <button
+                type="button"
+              >
+                Edit User
+              </button>
+            </a>
+            <button
+              onClick={[Function]}
+              type="button"
+            >
+              Ban User
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <h2>
+          Reviews
+        </h2>
+        <p
+          className="review-message"
+        >
+          No reviews
+        </p>
+      </div>
+    </div>
+  </div>,
+]
+`;

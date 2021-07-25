@@ -1,0 +1,25 @@
+.reviews-collection {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+h2 {
+  text-align: center;
+}
+
+.reviews-container {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px 0 10px;
+  align-items: flex-start;
+}
+
+.subTitle {
+  color: gray;
+  font-size: 24px; 
+};
